@@ -9,10 +9,10 @@ This repository contains two Python files, `main.py` and `client.py`, which demo
 
 It's a good practice to work in a virtual environment to isolate dependencies for your project.
 
-# Create a virtual environment (optional)
+#### Create a virtual environment (optional)
 python -m venv venv
-# Activate the virtual environment
-source venv/bin/activate  # On Linux/macOS
+#### Activate the virtual environment**
+source venv/bin/activate  # On Linux/macOS </br>
 venv\Scripts\activate  # On Windows
 
 ### 2. Install Dependencies
