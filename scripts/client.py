@@ -2,7 +2,7 @@ import requests
 
 url = 'http://localhost:5000/predict' 
 
-image_file_path = 'C:\\Users\\hp\\Desktop\\DataSet_MLOps\\chest_xray\\chest_xray\\test\\NORMAL\\IM-0011-0001-0002.jpeg'
+image_file_path = 'C:\\Users\\hp\\MSD\\data\\processed\\Processed_TP1_Dataset\\test\NORMAL\\IM-0016-0001.jpeg'
 image = open(image_file_path, 'rb')
 
 files = {'image': ('image.jpg', image)}

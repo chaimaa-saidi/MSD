@@ -7,7 +7,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 
-model = keras.models.load_model('model.h5')
+model = keras.models.load_model('models/model_Balanced.keras')
 # Data preprocessing
 def preprocess_image(image):
   
